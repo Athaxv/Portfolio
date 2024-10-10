@@ -1,15 +1,16 @@
 
-
+import Firstsection from './components/Firstsection'
 import './App.css'
 import Navbar from './components/Navbar'
-import Section from './components/Section'
+import Responsive from './components/Responsive'
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <Section/>
+      <Responsive/>
+      <Firstsection/>
     </>
   )
 }
