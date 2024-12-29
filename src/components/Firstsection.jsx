@@ -16,7 +16,7 @@ const Firstsection = () => {
             <p className="section-text-p2">MERN Stack Developer</p>
             <div className="btn-container">
                 <button className="btn btn-color-2" onClick={() => location.href="https://github.com/Athaxv"}>GitHub</button>
-                <button className="btn btn-color-1" onClick={() => location.href="./#contact"}>Contact Info</button>
+                <button className="btn btn-color-1" onClick={() =>  window.open("/Resume.pdf", "_blank")}>Resume</button>
             </div>
             <div className="socials-container">
               <img src={githubLogo} alt="My Linkeldn Profile" className="icon" onClick={() => location.href="https://github.com/Athaxv"} />

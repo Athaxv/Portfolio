@@ -26,9 +26,9 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-.sec-sec {
-  height: 5vh;
-}
+/* .sec-sec {
+  max-height: 200px;
+} */
 .nav-links{
   gap: 2rem;
   list-style: none;
