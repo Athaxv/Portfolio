@@ -2,10 +2,10 @@
 
 const Footer = () => {
   return (
-    <section className=".sec-sec">
+    <section className=".sec-sec mb-10">
         <nav>
         <div className='nav-links-container'>
-        <ul className="nav-links to">
+        <ul className="nav-links to hidden md:flex">
             <li><a href="/about">About</a></li>
             <li><a href="/experience">Experience</a></li>
             <li><a href="/project">Project</a></li>
